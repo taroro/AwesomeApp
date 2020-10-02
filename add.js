@@ -124,6 +124,7 @@ function Add() {
           }
         </View>
       </View>
+      <View></View>
       <TextInput label={"สร้างงานใหม่"} value={todo} onChangeText={setTodo} />
       <Button onPress={() => addTodo()}>Add TODO</Button>
     </>
